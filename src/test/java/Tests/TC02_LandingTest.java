@@ -67,7 +67,7 @@ public class TC02_LandingTest {
         Assert.assertTrue(new P02_LandingPage(getDriver()).comparingNumberOfSelectedProductsWithCart());
     }
 
-    @Test
+    @Test(alwaysRun = true)
     public void clickOnCartIcon() throws IOException {
         new P02_LandingPage(getDriver()).clickOnCartIcon();
         Assert.assertTrue(VerifyURL(getDriver(), DataUtils.getPropertyValue("environment", "CART_URL")));
