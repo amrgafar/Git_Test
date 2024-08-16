@@ -1,0 +1,20 @@
+[INFO] 15-08-2024 20:53:30 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:31)] - null
+[INFO] 15-08-2024 20:53:42 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:33)] - Edge driver is opened
+[INFO] 15-08-2024 20:53:45 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:35)] - Page is redirected to the URL
+[INFO] 15-08-2024 20:53:50 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:31)] - Test Case login passed
+[INFO] 15-08-2024 20:53:50 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:49)] - null
+[INFO] 15-08-2024 20:53:56 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:51)] - Edge driver is opened
+[INFO] 15-08-2024 20:54:00 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:53)] - Page is redirected to the URL
+[INFO] 15-08-2024 20:54:05 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:31)] - Test Case setup passed
+[INFO] 15-08-2024 20:54:06 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case checkingNumberOfSelectedProductsTC started
+[INFO] 15-08-2024 20:54:06 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:34)] - number of all products : 0
+[ERROR] 15-08-2024 20:54:12 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:48)] - Expected condition failed: waiting for visibility of element located by By.className: shopping_cart_badge (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52621}, msedge: {msedgedriverVersion: 127.0.2651.98 (9996f88545e1..., userDataDir: C:\Program Files\scoped_dir...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52621/devtoo..., se:cdpVersion: 127.0.2651.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6a440419c0d1e1499887448b63d8289
+[INFO] 15-08-2024 20:54:12 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:57)] - selected products:0
+[INFO] 15-08-2024 20:54:12 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:31)] - Test Case checkingNumberOfSelectedProductsTC passed
+[INFO] 15-08-2024 20:54:14 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:31)] - Test Case quit passed
+[INFO] 15-08-2024 20:54:14 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:31)] - Test Case deleteSession passed
