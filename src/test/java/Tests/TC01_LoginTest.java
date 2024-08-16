@@ -46,7 +46,7 @@ public class TC01_LoginTest {
     }
 
 
-    @AfterMethod(alwaysRun = true)
+    @AfterMethod
     public void quit() {
         quitDriver();
     }
